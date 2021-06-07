@@ -1,14 +1,14 @@
-# Brief:
+# Brief
 This is a custom built library used to implement dynamic array in C. 
 This code was tested in WSL (Windows 10) in Visual Studio Code under remote explorer.
 
-# Contents:
+# Contents
 * dArray.h - Contains the function prototypes.
 * dArray.c - Contains the function implementations.
 * test.c - A test function to test the functionality of all the library functions
 * Makefile - It is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
-# Functions: 
+# Functions
 `int *dArray(int size)` - Requires the size of the dynamic array and returns a pointer to the dynamic array.
 
 `int *deleteArray(int *arr)` - Requires an array pointer and returns a NULL pointer.
@@ -29,7 +29,7 @@ This code was tested in WSL (Windows 10) in Visual Studio Code under remote expl
 
 `void printArray(int *arr, int size)` - Requires the array pointer, size and prints the array on the screen.
 
-# How to use the library:
+# How to use the library
 * Include the library header in your main.c `#include "dArray.h"`.
 * Note: Make sure that you have the header and the source file in the same directory. 
 * Run make command.
