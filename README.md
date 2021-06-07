@@ -27,7 +27,7 @@ This code was tested in WSL (Windows 10) in Visual Studio Code under remote expl
  
 `int *popFront(int *arr, int *size)` - Requries array pointer, size and returns the array pointer with its first element popped.
 
-`void printArray(int *arr, int size)` - Requires the array pointer and prints the array on the screen.
+`void printArray(int *arr, int size)` - Requires the array pointer, size and prints the array on the screen.
 
 # How to use the library:
 * Include the library header in your main.c `#include "dArray.h"`.
